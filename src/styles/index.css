@@ -1,0 +1,8 @@
+@import "tailwindcss";
+@import './customScroll.css';
+
+body{
+  margin: 0px;
+  padding: 0px;
+}
+@custom-variant dark (&:where([data-theme=dark], [data-theme=dark] *));
