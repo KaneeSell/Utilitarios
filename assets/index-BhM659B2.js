@@ -189,7 +189,7 @@ Please change the parent <Route path="${re}"> to <Route path="${re==="/"?"*":`${
                     `,onClick:()=>d(),children:H.jsx(Im,{size:"40px"})}),H.jsx("button",{onClick:()=>v(),children:H.jsx($m,{className:A,size:"50px"})}),H.jsx("button",{onClick:()=>b(),children:H.jsx(Fm,{className:A,size:"50px"})}),H.jsx("button",{onClick:()=>E(),children:H.jsx(tg,{className:A,size:"50px"})})]})},c=()=>H.jsx("div",{onClick:v=>v.stopPropagation(),className:"w-full h-full flex justify-center items-center",children:H.jsx(sy,{initialScale:1,initialPositionX:200,initialPositionY:100,children:({zoomIn:v,zoomOut:b,resetTransform:E,...A})=>H.jsxs(H.Fragment,{children:[H.jsx(f,{}),H.jsx(py,{children:H.jsx("img",{src:l.img,alt:l.alt,className:`
                                     max-w-full max-h-full object-contain
                                     `})})]})})});return H.jsx(H.Fragment,{children:H.jsxs("div",{className:"w-full aspect-[16/9] overflow-hidden bg-gray-200 relative group",children:[H.jsx("img",{src:l.img,alt:l.alt}),H.jsx("button",{className:`
-                    flex group-hover:flex absolute top-0 left-0 w-full h-full
+                    hidden group-hover:flex absolute top-0 left-0 w-full h-full
                     justify-center items-center bg-black/30 cursor-pointer
                     `,onClick:d,children:H.jsx(eg,{className:"text-white",size:"40px"})}),H.jsx("div",{id:`modalExpandirImg-${l.id}`,className:`
                 fixed left-0 top-0 hidden flex-col justify-start items-center 
