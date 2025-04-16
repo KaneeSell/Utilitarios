@@ -182,14 +182,14 @@ Please change the parent <Route path="${re}"> to <Route path="${re==="/"?"*":`${
 `,J0={wrapper:"transform-component-module_wrapper__SPB86",content:"transform-component-module_content__FBWxo"};dy(hy);var py=function(l){var d=l.children,f=l.wrapperClass,c=f===void 0?"":f,v=l.contentClass,b=v===void 0?"":v,E=l.wrapperStyle,A=l.contentStyle,C=l.wrapperProps,T=C===void 0?{}:C,w=l.contentProps,Y=w===void 0?{}:w,L=F.useContext(ef),I=L.init,U=L.cleanupWindowEvents,W=F.useRef(null),le=F.useRef(null);return F.useEffect(function(){var K=W.current,he=le.current;return K!==null&&he!==null&&I&&(I==null||I(K,he)),function(){U==null||U()}},[]),pn.createElement("div",Di({},T,{ref:W,className:"".concat(ds.wrapperClass," ").concat(J0.wrapper," ").concat(c),style:E}),pn.createElement("div",Di({},Y,{ref:le,className:"".concat(ds.contentClass," ").concat(J0.content," ").concat(b),style:A}),d))},vy=function(){var l=F.useContext(ef);if(!l)throw new Error("Transform context must be placed inside TransformWrapper");return l},my=function(){var l=vy();return Jo(l)};function gy(l){function d(){It(`#modalExpandirImg-${l.id}`).fadeToggle(300),It("body").css("overflow-y")=="hidden"?It("body").css("overflow-y","scroll"):It("body").css("overflow-y","hidden")}const f=()=>{const{zoomIn:v,zoomOut:b,resetTransform:E}=my(),A=`
         cursor-pointer bg-purple-700 text-green-100 p-2 rounded border-1
         `;return H.jsxs("div",{className:`
-            fixed text-bold left-5/11 top-2 z-1 flex flex-row gap-3
+            fixed text-bold left-4/12 top-2 z-1 flex flex-row gap-3
             `,children:[H.jsx("button",{className:`
                     fixed right-2 top-2 bg-purple-700 p-2 border-1
                     rounded text-gray-100 text-bold cursor-pointer
                     `,onClick:()=>d(),children:H.jsx(Im,{size:"40px"})}),H.jsx("button",{onClick:()=>v(),children:H.jsx($m,{className:A,size:"50px"})}),H.jsx("button",{onClick:()=>b(),children:H.jsx(Fm,{className:A,size:"50px"})}),H.jsx("button",{onClick:()=>E(),children:H.jsx(tg,{className:A,size:"50px"})})]})},c=()=>H.jsx("div",{onClick:v=>v.stopPropagation(),className:"w-full h-full flex justify-center items-center",children:H.jsx(sy,{initialScale:1,initialPositionX:200,initialPositionY:100,children:({zoomIn:v,zoomOut:b,resetTransform:E,...A})=>H.jsxs(H.Fragment,{children:[H.jsx(f,{}),H.jsx(py,{children:H.jsx("img",{src:l.img,alt:l.alt,className:`
                                     max-w-full max-h-full object-contain
                                     `})})]})})});return H.jsx(H.Fragment,{children:H.jsxs("div",{className:"w-full aspect-[16/9] overflow-hidden bg-gray-200 relative group",children:[H.jsx("img",{src:l.img,alt:l.alt}),H.jsx("button",{className:`
-                    hidden group-hover:flex absolute top-0 left-0 w-full h-full
+                    flex group-hover:flex absolute top-0 left-0 w-full h-full
                     justify-center items-center bg-black/30 cursor-pointer
                     `,onClick:d,children:H.jsx(eg,{className:"text-white",size:"40px"})}),H.jsx("div",{id:`modalExpandirImg-${l.id}`,className:`
                 fixed left-0 top-0 hidden flex-col justify-start items-center 
