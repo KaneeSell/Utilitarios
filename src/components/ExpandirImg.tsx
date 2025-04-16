@@ -81,7 +81,7 @@ export default function ExpandirImg(props: ExpandirImgProps){
             <div className='w-full aspect-[16/9] overflow-hidden bg-gray-200 relative group'>
                 <img src={props.img} alt={props.alt}/>
                 <button className={`
-                    flex group-hover:flex absolute top-0 left-0 w-full h-full
+                    hidden group-hover:flex absolute top-0 left-0 w-full h-full
                     justify-center items-center bg-black/30 cursor-pointer
                     `}
                     onClick={toggleModal}>
