@@ -64,7 +64,9 @@ export default function ExpandirImg(props: ExpandirImgProps){
                                 <Controles />
                                 <TransformComponent>
                                     <img src={props.img} alt={props.alt}
-                                    className='max-w-full max-h-full object-contain'/>
+                                    className={`
+                                    max-w-full max-h-full object-contain
+                                    `}/>
                                 </TransformComponent>
                             </>
                         );

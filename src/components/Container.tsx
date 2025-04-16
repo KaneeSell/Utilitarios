@@ -2,6 +2,8 @@ interface Container1Props{
     title?:string
     subtitle?:string
     tamanho: '100' | '200' | '300' | '400' | '500'
+    className?:string
+    classNamePai?:string
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
     children: any
 }
@@ -11,7 +13,7 @@ export function Container1(props: Container1Props){
                      border-gray-900 bg-black/15`
     const childrenTema = `text-gray-900 dark:text-gray-100`
     return (
-        <div className={`${corTema}
+        <div className={`${corTema} ${props.classNamePai}
         flex flex-col p-4 m-2 rounded-xl border-2 ${`max-w-` + props.tamanho}
         `}>
             {props.title && <span className={`${corDestaque}
@@ -21,7 +23,7 @@ export function Container1(props: Container1Props){
             text-base
             `}>{props.subtitle}</span>}
             {props.title && <hr className={`${corTema} my-2`}/>}
-            <div className={`${childrenTema}`}>
+            <div className={`${childrenTema} ${props.className}`}>
                 {props.children}
             </div>
         </div>
