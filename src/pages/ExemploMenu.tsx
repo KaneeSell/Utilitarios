@@ -6,7 +6,7 @@ import { Container1 } from "../components/Container";
 export default function ExempoloMenu(){
     return (
         <LayoutPaiTema>
-            <MenuSupertios logo={logo} logoTitle="Kane'e Logo" title="Utilitarios"/>
+            <MenuSuperior3 logo={logo} logoTitle="Kane'e Logo" title="Utilitarios" pageTitle="Exemplo Menu"/>
             <Container1 tamanho={'500'} title="Exemplo Menu"
             className="gap-1 flex flex-col"
             classNamePai="w-3/4 pointer-events-none">
@@ -14,10 +14,10 @@ export default function ExempoloMenu(){
                     <MenuSupertios logo={logo} logoTitle="Kane'e Logo" title="Exemplo"/>
                 </div>
                 <div>
-                    <MenuSuperior2 logo={logo} logoTitle="Kane'e Logo" title="Exemplo"/>
+                    <MenuSuperior2 logo={logo} logoTitle="Kane'e Logo" title="Exemplo" pageTitle="Page Exemplo"/>
                 </div>
                 <div>
-                    <MenuSuperior3 logo={logo} logoTitle="Kane'e Logo" title="Exemplo"/>
+                    <MenuSuperior3 logo={logo} logoTitle="Kane'e Logo" title="Exemplo" pageTitle="Page Exemplo"/>
                 </div>
             </Container1>
         </LayoutPaiTema>
